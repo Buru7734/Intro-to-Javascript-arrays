@@ -257,7 +257,7 @@ Exercise 15: Nested array sum
 Hint: Be sure to declare and initialize the total variable before the iterations.
 
 Complete Exercise 15 in the space below:
-Way 1
+
 */
 const numArrays = [
   [100, 5, 23],
@@ -270,15 +270,5 @@ let flatArray = numArrays.flat();
 for (let i = 0; i < flatArray.length; i++) {
   total += flatArray[i];
 }
-
-console.log("Exercise 15 result:\n", total);
-
-//Way 2
-const numArrays = [
-  [100, 5, 23],
-  [15, 21, 72, 9],
-  [45, 66],
-  [7, 81, 90],
-];
 
 console.log("Exercise 15 result:\n", total);
